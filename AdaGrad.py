@@ -3,14 +3,14 @@ from torch.optim.optimizer import Optimizer, required
 import copy
 import math
 
-class AdaDelta(Optimizer):
+class AdaGrad(Optimizer):
     # This class implements the well-known ADAM optimizer
     
     def __init__(self, params, lr=0.001, beta1=0.9, beta2=0.999, eps=1e-8) -> None:
         if lr < 0 or beta1 < 0 or beta1 < 0 or eps < 0:
             raise ValueError("Invalid params: (lr, beta1, beta2 and epsilon are all supposed to be >=0). Given values: {}, {}, {}".format(lr, beta1, beta2, eps))
         defaults = dict(lr=0.001, beta1=0.9, beta2=0.999, eps=1e-8)
-        super(AdaDelta, self).__init__(params, defaults)
+        super(AdaGrad, self).__init__(params, defaults)
 
 
     def step(self, closure=None):
