@@ -81,7 +81,7 @@ Each of them have a few variations too but are broadly classified above. All of 
 and calculations.
 
 $m_t \leftarrow \beta_1 m_{t-1} + (1- \beta_1) g_t$
-- Update biased first-moment eastimate (Equation 1)
+- Update biased first-moment estimate (Equation 1)
 
 $v_t \leftarrow \beta_2 v_{t-1} + (1-\beta_2) g_t^2$
 - Update biased second raw moment estimate (Equation 2)
