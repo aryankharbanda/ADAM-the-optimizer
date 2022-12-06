@@ -174,11 +174,11 @@ This doesn't mean that we have to use SGD all the time because it isn't that wor
 
 # Work Distribution
 
-- MLP for MNIST: Aryan
-- Adam and other optimizers: Tushar
-- CNN for CIFAR-10: Aryan, Priyanshul
-- LR for MNIST: Murali
-- LR for IMDB: Murali
-- Report: Priyanshul, Tushar
+- MLP for MNIST - Priyanshul, Tushar
+- Adam + optimizers - Tushar
+- CNN for CIFAR - Priyanshul, Aryan
+- LR for MNIST - Aryan
+- LR for IMDB - Murali
+- Report - Priyanshul, Murli
 
 ---
