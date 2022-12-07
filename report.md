@@ -181,4 +181,12 @@ This doesn't mean that we have to use SGD all the time because it isn't that wor
 - LR for IMDB: Murali
 - Report: Priyanshul, Tushar
 
+# References
+
+1. Adam: A Method for Stochastic Optimization. D. P. Kingma and J. L. Ba. International Conference on Learning Representations (ICLR), 2015.
+2. An overview of gradient descent optimization algorithms. Sebastian Ruder. CoRR, abs/1609.04747, 2016.
+3. Adaptive Subgradient Methods for Online Learning and Stochastic Optimization. John D. Lafferty, Andrew McCallum, Fernando Pereira. Journal of Machine Learning Research, 12:2121-2159, 2011.
+4. An Empirical Study of Stochastic Gradient Algorithms for Large-Scale Linear SVM and Logistic Regression. Galen Andrew, Ji Liu. In Proceedings of the 13th International Conference on Artificial Intelligence and Statistics (AISTATS), 2010.
+5. Stochastic Gradient Descent. Yann LeCun, Leon Bottou, Genevieve B. Orr, Klaus-Robert Muller. Neural Networks: Tricks of the Trade, 2nd edition, Springer, 2012.
+
 ---
